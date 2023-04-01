@@ -1,0 +1,57 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+.task {
+    margin: 10px;
+}
+
+.task p {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.task input[type="radio"] {
+    margin-right: 10px;
+}
+
+#text {
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.dlinna:checked~#text span.dlinna {
+    background-color: #8b008b;
+}
+
+.glasnye:checked~#text span.glasnye {
+    background-color: #ff1493;
+}
+
+.okonchanya:checked~#text span.okonchanya {
+    background-color: #00bfff;
+}
+
+#text span {
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+#text span.dlinna {
+    background-color: #ff4500;
+}
+
+#text span.glasnye {
+    background-color: #9400d3;
+}
+
+#text span.okonchanya {
+    background-color: #4169e1;
+}
